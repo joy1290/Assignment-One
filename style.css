@@ -27,6 +27,40 @@ button{
     border: none;
     cursor:pointer;
 }
-button:hover{
-    background-color: darkblue;
+.create-code{
+   background-image:url('./images/banner.jpg');
+    height:90vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    display:grid;
+    justify-content:center;
+    align-items:center;
+}
+.code-content{
+    color:white;
+    width: 700px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   transform: translateY(-80px);
+}
+.create-code h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 20px;;
+}
+.create-code p{
+    font-size: 20px;
+    margin-bottom:100px;
+    line-height:24px;
+    width: 650px;
+    letter-spacing:22;
+    text-align:center;
+}
+.create-code button{
+    position: relative;
+    top:160px;
+    font-size: 20px;
 }
