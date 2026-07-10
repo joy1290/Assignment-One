@@ -273,6 +273,12 @@ button{
     font-size: 20px;
     color:#6e38e0;
 }
+.footer{
+    background:#2d211c;
+    color:#fff;
+    padding:50px 80px 20px;
+}
+
 .footer-top{
     display:flex;
     justify-content:space-between;
@@ -285,6 +291,7 @@ button{
     flex:1;
     min-width:220px;
 }
+
 
 .footer-box h2{
     color:#d89d2c;
@@ -310,12 +317,12 @@ button{
 }
 
 .footer-box ul li a{
-    color:black;
+    color:#d0d0d0;
     text-decoration:none;
 }
 
 .footer-box ul li a:hover{
-    color:#ca8505;
+    color:#d89d2c;
 }
 
 hr{
@@ -333,7 +340,7 @@ hr{
 
 .footer-bottom p{
     font-size:14px;
-    color:black;
+    color:#ccc;
 }
 
 .social-icons{
@@ -355,5 +362,5 @@ hr{
 }
 
 .social-icons a:hover{
-    background:#b37503;
+    background:#d89d2c;
 }
